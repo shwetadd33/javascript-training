@@ -1,0 +1,61 @@
+/* * is used to select all the elements from the html file*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: hwb(69 37% 9%);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.first {
+  color: red;
+  font-family: Impact;
+}
+
+#your-name {
+  background-color: rgba(255, 255, 0, 0.904);
+  border: 5px solid #14be33;
+  width: 400px;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+/* it adds style to both input and button element*/
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+a {
+  background-color: yellowgreen;
+}
+
+/* If you want to add style to the specific element inside the specific element we can select it like below. Here 
+to select "h2" from "form" tag we can first select the id of the form and then sepcify h2 element only within it.*/
+#your-name h2 {
+  color: blue;
+}
+
+#course-image {
+  width: 100px;
+  height: 90px;
+}
